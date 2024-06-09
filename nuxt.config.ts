@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   nitro: {
       prerender: {
           routes: [
-              '/_ipx/**',
+              // '/_ipx/**',
               '/'
           ],
           crawlLinks: true
